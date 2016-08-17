@@ -38,7 +38,7 @@ You can choose a configure method:
   - multiple small configs file in a directory
 
 
-##### Template file
+##### Get the template config file
 
 If you haven't any config file, you can copy a config template from the sensu container or you can use my examples below.
 
@@ -240,8 +240,8 @@ docker run -tid --name=sensu --link redis:redissrv --link rabbitmq:rabbitmqsrv -
 
 Uchiwa is a webUI for the community version of Sensu.
 
-Docker hub: https://hub.docker.com/r/uchiwa/uchiwa/
-Configuration infos: http://docs.uchiwa.io/en/latest/configuration/overview/
+  - Docker hub: https://hub.docker.com/r/uchiwa/uchiwa/
+  - Configuration infos: http://docs.uchiwa.io/en/latest/configuration/overview/
 
 Create config:
 
